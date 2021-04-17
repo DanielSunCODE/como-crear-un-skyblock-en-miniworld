@@ -181,3 +181,127 @@ footer{
     background: rgb(202, 202, 202);
 }
 
+@media screen and (max-width:700px){
+    .nav{
+        grid-template-areas: 'logo logo vacio links';
+    }
+
+    .nav-links-container{
+        width: 100%;
+    }
+
+    .nav-links-container a{
+        width: 100%;
+    }
+
+    .logo-container{
+        justify-content: start;
+    }
+    
+    .logo-container .logo{
+        width: 48px;
+        height: 48px;
+    }
+
+    .logo-container p{
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .main{
+        padding: .5rem;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    .title:before{
+        width: 45%;
+        bottom: 20px;
+    }
+
+    .paragraph{
+        margin: .5rem auto;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .btn{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .video{
+        height: 300px;
+        width: 350px;
+    }
+
+    .second-section{
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .nav{
+        grid-template-areas: 'logo logo vacio links';
+    }
+
+    .nav-links-container{
+        width: 100%;
+    }
+
+    .nav-links-container a{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .logo-container{
+        justify-content: start;
+    }
+    
+    .logo-container .logo{
+        width: 38px;
+        height: 38px;
+    }
+
+    .logo-container p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main{
+        padding: .5rem;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .title:before{
+        width: 35%;
+        bottom: 20px;
+    }
+
+    .paragraph{
+        margin: .5rem auto;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .btn{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .video{
+        height: 200px;
+        width: 250px;
+    }
+
+    .second-section{
+        margin-top: 1rem;
+    }
+}
+
